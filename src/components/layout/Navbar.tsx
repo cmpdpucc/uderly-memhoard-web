@@ -63,7 +63,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate, onLaunchApp, current
                     </a>
                     <button 
                         onClick={onLaunchApp}
-                        className="group bg-white text-black px-6 py-2.5 rounded-full text-sm font-bold hover:bg-gray-200 transition-all flex items-center gap-2 shadow-[0_0_20px_rgba(255,255,255,0.2)] hover:shadow-[0_0_30px_rgba(255,255,255,0.4)] hover:-translate-y-0.5"
+                        className="group bg-[#8A2BE2] text-white px-6 py-2.5 rounded-full text-sm font-bold hover:bg-[#7a25c9] transition-all flex items-center gap-2 shadow-[0_0_20px_rgba(138,43,226,0.3)] hover:shadow-[0_0_30px_rgba(138,43,226,0.5)] hover:-translate-y-0.5"
                     >
                         Start App <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                     </button>
