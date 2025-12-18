@@ -1,0 +1,32 @@
+@use "sass:math";
+
+// Colors
+$color-brand: #8A2BE2;
+$color-bg: #050505;
+$color-text: #e2e8f0;
+$color-text-muted: #94a3b8;
+$color-white: #ffffff;
+$color-border: rgba(255, 255, 255, 0.1);
+
+// Typography
+$font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+$font-mono: 'JetBrains Mono', monospace;
+
+// Breakpoints
+$bp-mobile: 640px;
+$bp-tablet: 768px;
+$bp-desktop: 1024px;
+
+// Mixins
+@mixin glass {
+  background: rgba(18, 18, 20, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
